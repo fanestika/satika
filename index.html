@@ -13,13 +13,85 @@
   <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <div class="b-question">
-    <div class="title-question"> ¿Tienes más de 30 años? </div>
-    <div class="text-justify">
-    <a id="ya" class="button m-red" href="#" > Sí </a>
-    <a id="tidak" class="button m-red" href="#" > No </a>
+    <div class="main">
+        <div class="stepbox">
+            <div class="step step-1 current">
+                <div class="step__inner">
+                    <div class="step__header">
+                        <h6>Cuộc sống quá ngắn nếu bạn không biết nó!</h6>
+                    </div>
+                    <div class="step__footer">
+                        <div class="btnbox btnbox-4">
+                            <a class="btn btn--accent btn--round slick-next btn-no next"
+                                href="javascript:void(0)">có</a>
+                            <a class="btn btn--accent btn--round slick-next btn-no next"
+                                href="javascript:void(0)">không</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="step step-2">
+                <div class="step__inner">
+                    <div class="step__header">
+                        <h6>Bạn có trên 25 tuổi không?</h6>
+                    </div>
+                    <div class="step__footer">
+                        <div class="btnbox">
+                            <a class="btn btn--accent btn--round slick-next next" href="javascript:void(0)">có</a>
+                            <a class="btn btn--accent btn--round slick-next next" href="javascript:void(0)">không</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="step step-loader">
+                <div class="step__inner">
+                    <div class="loader">đang tải...</div>
+                </div>
+            </div>
+            <div class="step step-3">
+                <div class="step__inner">
+                    <div class="step__header">
+                        <h1>Chúc mừng!</h1>
+                    </div>
+                    <div class="step__body">
+                        <p>Bạn xứng đáng biết bí mật này</p>
+                    </div>
+                    <div class="step__footer">
+                        <div class="btnbox">
+                            <a id="fbutton" class="fbutton btn btn--accent btn-fin btn-continue" href="#"
+                                data-track="">Nhấn vào đây</a>
+                        </div>
+                        <p>và nhận được kết quả từ bí mật này</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="progress">
+        <div class="bar">
+        </div>
     </div>
+    <div class="videobgbox">
+        <video class="video" loop="" autoplay="" muted="" playsinline="">
+            <source src="https://usliferates.com/lpz/lg/abm/p/usalifeadvicemc1//img/video_bg.mp4" type="video/mp4">
+        </video>
+    </div>
+    <footer class="mastfoot mastfoot-index">
+        <div class="mastfoot-disclaimer">
+            <div class="viewport">
+                <p><strong>DISCLAIMER</strong>: ENROLLMENT IN THE DESCRIBED PLAN TYPE MAY BE LIMITED TO CERTAIN TIMES OF
+                    THE YEAR UNLESS YOU QUALIFY FOR A SPECIAL ENROLLMENT PERIOD. PLAN AVAILABILITY VARIES BY REGION AND
+                    STATE.</p>
+                <p>This site is a referral source that provides information and access to a helpline to match consumers
+                    with companies that may provide certain insurance coverage to them. this site does not act as an
+                    insurance broker and does not make decisions about insurance coverage that may be available to you.
+                    this site doesn’t promise a specific outcome or the results you may achieve by calling the helpline.
+                    The helpline is free to call but the services or programs that you pursue may have costs associated
+                    with them.</p>
+                <p><br></p>
+            </div>
+        </div>
+    </footer>
     <script src="js/js.cookie.min.js" type="text/javascript"></script>
 
 <script>
